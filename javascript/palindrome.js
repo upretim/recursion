@@ -1,5 +1,7 @@
-/* this function check if a string is palindrome using recurion*/
-
+/* this function check if a string is palindrome using recurion
+ for detail explanation please watch
+ https://youtu.be/gsxrtwGKklY
+*/
 function isPalindrome(str){
     return palindrome_helper(str,0, str.length-1);
 }
