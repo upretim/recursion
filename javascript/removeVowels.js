@@ -3,9 +3,9 @@
  for detail explanation please watch
  https://youtu.be/QRW43YPDcNM
 */
-function removeVowels(str){
+function removeVowels(){
     let str = "hello world";
-    return removeVowels_helper(str, 0, "");
+    console.log(removeVowels_helper(str, 0, ""));
 }
 
 function removeVowels_helper(str, length, result){
@@ -15,3 +15,4 @@ function removeVowels_helper(str, length, result){
       return removeVowels_helper(str, length+1, result);
    return removeVowels_helper(str, length+1, result+ str.charAt(length));
 }
+removeVowels();
