@@ -4,7 +4,10 @@ public class RemoveVowels {
         String str1 = "hello world";
         System.out.println(removeVowels(str1,0,""));;
     }
-    /*this method removes all the vowels from a given string using recursion*/
+    /*this method removes all the vowels from a given string using recursion
+    for detail explanation please watch
+    https://youtu.be/QRW43YPDcNM
+*/
     private static String removeVowels(String str, int length, String result){
         if(str.length()==length) return result;
         String vowels = "aeiou";

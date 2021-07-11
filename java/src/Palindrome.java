@@ -7,6 +7,9 @@ public class Palindrome {
         System.out.println(isPalindrome(s2, 0, s2.length()-1));
         System.out.println(isPalindrome(s3, 0, s3.length()-1));
     }
+    /* for detail explanation please watch
+     https://youtu.be/gsxrtwGKklY
+     */
     private static boolean isPalindrome(String str, int start, int end){
         if(start>=end) return true;
         if(str.charAt(start)!=str.charAt(end)) return  false;
