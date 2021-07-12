@@ -4,6 +4,7 @@ public class ReverseString {
         System.out.println(reverse("the", 2));
         System.out.println(reverse("hattttt", 6));
     }
+    /*for explanation please watch https://youtu.be/JqebIalr1Ys*/
     private static String reverse(String str, int len){
         if(len ==-1) return "";
         return String.valueOf(str.charAt(len)) + reverse(str, len-1);

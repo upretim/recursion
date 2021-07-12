@@ -1,4 +1,5 @@
   /*this function reverse a string using recursion*/
+  /*for explanation please watch https://youtu.be/JqebIalr1Ys*/
   function reverseString(str){
     return reverse(str, str.length-1)
   }
