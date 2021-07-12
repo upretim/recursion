@@ -1,4 +1,7 @@
-/* this function recursively calculates sum of first n natural numbers*/
+/* this function recursively calculates sum of first n natural numbers
+for more details and explanation
+https://youtu.be/2XpeZGSEJxE
+*/
 function rangeSum(num){
 // base case when n reaches to 1.
  if(num==1) return 1;
